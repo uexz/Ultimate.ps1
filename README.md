@@ -1,10 +1,12 @@
+<img width="662" height="187" alt="image" src="https://github.com/user-attachments/assets/60476d3c-2320-499c-86ae-5526928071b1" />
+
 # Ultimate.ps1
-Ultimate.ps1 is a user-friendly tool used to debloat and optimize Windows experience.
+Ultimate.ps1 is a user-friendly tool for debloating and optimizing the Windows experience.
 It's designed for users needing a minimal, responsive OS environment.
 
 #Features
 Ultimate.ps1 offers wild number of sections that the user can choose from:
-1. Defender & Security: Disables and forces policies on Windows Defender and Security. This section is NOT recommended for everyday use, as it leaves major security risks on your machine.
+1. Defender & Security: Disables and forces policies on Windows Defender and Security. This section isn't recommended for everyday use because it leaves major security risks on your machine.
 
 2. Windows Update: Disables Windows updates, stops wuauserv service, and forces policies on updates. This section is NOT recommended for regular users.
 
@@ -43,11 +45,11 @@ Optimizes System profile Key by changing SystemResponsiveness, tweaking the prio
 
 12. System Apps Removal:
 
-13. OneDrive Removal: uninstalls and removes OneDrive
+13. OneDrive Removal: Uninstalls and removes OneDrive
 
 14. Microsoft Teams Removal: Uninstalls and removes Microsoft Teams app
 
-15. Xbox Removal: Uninstalls and removes every Xbox component, THIS SECTION IS OPTIONAL
+15. Xbox Removal: Uninstalls and removes every Xbox component. THIS SECTION IS OPTIONAL
 
 16. Component Cleanup: Runs DISM cleanup, Disables Reserved Storage, flushes Windows Update cache, and disables indexing 
 
@@ -64,11 +66,11 @@ Optimizes System profile Key by changing SystemResponsiveness, tweaking the prio
 
 20. Cursors scheme: Download and apply a cool No-tail cursor scheme
 
-#REQUIREMENTS
+# REQUIREMENTS
 Windows 10 and higher ( tested on Windows 10 and Windows 11)
-POWERSHELL CORE 7 and higher
+POWERSHELL CORE 7 and higher (https://github.com/powershell/powershell)
 
-#Script Not Working?
+# Script Not Working?
 Try executing this command first before starting the script: "Set-ExecutionPolicy Bypass -Scope LocalMachine -Force"
 
 🆘 Support / Help
